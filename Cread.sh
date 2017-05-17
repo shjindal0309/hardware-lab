@@ -1,0 +1,1 @@
+./C:/makestuff/libs/libfpgalink-20120621/win32/rel/flcli -v 1443:0007 -a "w0 0103;r21 11 \"matrix_c.txt\""
