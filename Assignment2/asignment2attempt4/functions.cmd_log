@@ -1,0 +1,202 @@
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.xst" -ofn "C:/Users/s/Desktop/cs223/assignment-2/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim functions.ngc functions_synthesis.v 
+xst -intstyle ise -ifn "I:/asignment2attempt4/functions.xst" -ofn "I:/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+xst -intstyle ise -ifn "C:/Users/thirteen13/Desktop/asignment2attempt4/functions.xst" -ofn "C:/Users/thirteen13/Desktop/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 functions.ngc functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 
+par -w -intstyle ise -ol high -mt off functions_map.ncd functions.ncd functions.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml functions.twx functions.ncd -o functions.twr functions.pcf -ucf i1map.ucf 
+bitgen -intstyle ise -f functions.ut functions.ncd 
+xst -intstyle ise -ifn "C:/Users/Shubham Jindal/Desktop/asignment2attempt4/functions.xst" -ofn "C:/Users/Shubham Jindal/Desktop/asignment2attempt4/functions.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc i1map.ucf -p xc6slx45-csg324-3 "functions.ngc" functions.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o functions_map.ncd functions.ngd functions.pcf 

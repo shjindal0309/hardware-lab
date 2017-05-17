@@ -1,0 +1,36 @@
+//! **************************************************************************
+// Written by: Map P.49d on Fri Feb 24 16:32:38 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "a" LOCATE = SITE "E4" LEVEL 1;
+PIN a_pin<0> = BEL "a" PINNAME PAD;
+PIN "a_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "b" LOCATE = SITE "F5" LEVEL 1;
+PIN b_pin<0> = BEL "b" PINNAME PAD;
+PIN "b_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "c" LOCATE = SITE "F6" LEVEL 1;
+PIN c_pin<0> = BEL "c" PINNAME PAD;
+PIN "c_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "d" LOCATE = SITE "P4" LEVEL 1;
+PIN d_pin<0> = BEL "d" PINNAME PAD;
+PIN "d_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "RESET" LOCATE = SITE "T15" LEVEL 1;
+COMP "selected<0>" LOCATE = SITE "R5" LEVEL 1;
+COMP "selected<1>" LOCATE = SITE "T5" LEVEL 1;
+COMP "myClk" LOCATE = SITE "L15" LEVEL 1;
+COMP "temp<0>" LOCATE = SITE "A10" LEVEL 1;
+COMP "temp<1>" LOCATE = SITE "D14" LEVEL 1;
+COMP "temp<2>" LOCATE = SITE "C14" LEVEL 1;
+COMP "temp<3>" LOCATE = SITE "P15" LEVEL 1;
+COMP "temp<4>" LOCATE = SITE "P12" LEVEL 1;
+COMP "sum<0>" LOCATE = SITE "U18" LEVEL 1;
+COMP "sum<1>" LOCATE = SITE "M14" LEVEL 1;
+COMP "sum<2>" LOCATE = SITE "N14" LEVEL 1;
+COMP "sum<3>" LOCATE = SITE "L14" LEVEL 1;
+COMP "sum<4>" LOCATE = SITE "M13" LEVEL 1;
+COMP "sum<5>" LOCATE = SITE "D4" LEVEL 1;
+COMP "sum<6>" LOCATE = SITE "P16" LEVEL 1;
+COMP "sum<7>" LOCATE = SITE "N12" LEVEL 1;
+SCHEMATIC END;
+

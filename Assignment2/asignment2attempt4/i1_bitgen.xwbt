@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\s\Desktop\cs223\assignment-2\asignment2attempt4\i1.ncd
+OUTFILE=C:\Users\s\Desktop\cs223\assignment-2\asignment2attempt4\i1.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=C:\Users\s\Desktop\cs223\assignment-2\asignment2attempt4
+LICENSE=WebPack
+USER_INFO=211295656_0_0_751

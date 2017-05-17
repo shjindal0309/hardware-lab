@@ -1,0 +1,11 @@
+
+#Created by Constraints Editor (xc6slx45-csg324-3) - 2017/01/20
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 2 ms HIGH 50%;
+NET clk LOC = "L15";
+NET count_enable LOC = "A10";
+NET reset LOC = "D14";
+NET Q[3] LOC = "L14";
+NET Q[2] LOC = "N14";
+NET Q[1] LOC = "M14";
+NET Q[0] LOC = "U18";

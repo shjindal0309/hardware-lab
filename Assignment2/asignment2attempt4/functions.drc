@@ -1,0 +1,8 @@
+Release 14.3 Drc P.40xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Mon Feb 20 15:27:36 2017
+
+drc -z functions.ncd functions.pcf
+
+DRC detected 0 errors and 0 warnings.
